@@ -1,0 +1,10 @@
+.hContainer{
+    display: flex;
+    width: 100%;
+    background-color: var(--cor-2);
+    justify-content: center;
+}
+
+.imageUm{
+    width: 10%;
+}
