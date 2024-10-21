@@ -1,0 +1,70 @@
+.senha-container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.senha-container h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.botoes button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  background-color: #e23e57;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botoes button:hover {
+  background-color: #e23e57;
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+}
+
+.filas {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.filas p {
+  margin: 10px 0;
+}
+
+.filas p span {
+  font-weight: bold;
+  color: #e23e57;
+}
+
+@media (max-width: 768px) {
+  .senha-container {
+    padding: 15px;
+  }
+
+  .botoes {
+    flex-direction: column;
+  }
+
+  .botoes button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
